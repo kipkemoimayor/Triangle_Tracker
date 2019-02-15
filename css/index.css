@@ -5,6 +5,9 @@
 }
 body{
   background-color: white;
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /*#h1{
 /*  height: auto;
@@ -14,9 +17,12 @@ body{
   word-spacing: 10px;
   background-color:#535353;*/
 }
-
+.body{
+  display: inline-block;
+}
 .body form{
   padding: 10px;
+  text-align: center;
 }
 .body form input{
   padding: 10px;
@@ -58,4 +64,10 @@ nav a:hover{
 .tra{
   width: 80%;
   margin: auto;
+  border: 2px solid white;
+  height: 25em;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+
+
 }
