@@ -13,17 +13,10 @@
 NO know bugs as at the moment
 ## Behavior Driven Development
 
-| __Behavior__              | __Input example__ | __Output example__ |
-| Our program should handle | When it receives  | It should return   |
-|---------------------------|-------------------|--------------------|
-| accepts inputs            |  9,5,6            |  true              |
-|                           |                   |                    |
-|                           |                   |                    |
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| __Behavior__  | __Input example__ | __Output example__ |
+| ------------- | ----------------- | ------------------ |
+| Input should accept all type of numbers | 1.5,10,30      | True |
+| Content Cell  | Content Cell      | true               |
 ## Technologies Used
 ## main languages used are
 * JavaSCript
