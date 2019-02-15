@@ -7,7 +7,7 @@
   </head>
   <body>
     <nav>
-      <a href="#">Home</a>
+      <a id="active" href="#">Home</a>
       <a href="#">Cv</a>
       <a href="#">About me</a>
       <a href="#">Triangle tracker</a>
@@ -19,11 +19,12 @@
     <h1>Welcome to Triangle Tracker </h1>
     <div class="body">
       <form class="action" action="index.html" method="post">
-        <p>Enter the 1 <sup>st.</sup> side:<input id="one" type="text" name=""  placeholder="1st side"></p>
-        <p>Enter the 2 <sup>nd</sup> side:<input id="two" type="text" name=""  placeholder="2nd side"></p>
-        <p>Enter the 3 <sup>rd</sup> side:<input id="three" type="text" name="" value="" placeholder="3rd side"></p>
-        <p>Click to see the outcome: <button type="button" name="button" value="Display Results"
-          onclick=triangles()>Press OK</button></p>
+        <p>Enter the 1 <sup>st.</sup> side:<input required id="one" type="number" name="" placeholder="1st side"></p>
+        <p>Enter the 2 <sup>nd</sup> side:<input required id="two" type="number" name="" placeholder="2nd side" ></p>
+        <p>Enter the 3 <sup>rd</sup> side:<input required id="three" type="number" name="" placeholder="3rd side" r></p>
+        <p>Click to see the outcome: <input type="button" name="" value="Press OK"
+          onclick=triangles() >
+          </p>
 
       </form>
         <p id="txtresult">Results</p>

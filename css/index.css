@@ -3,6 +3,9 @@
   padding: 0;
   border: 0;
 }
+h1{
+  text-align: center;
+}
 .body{
   margin: 5px;
   padding: 10px;
@@ -33,6 +36,19 @@ nav{
   top: 0;
   padding: 14px;
   z-index: 99;
+  text-align: right;
+}
+nav a{
+  color: white;
+  padding: inherit;
+  text-decoration: none;
+}
+nav a:hover{
+  background-color: #845;
+  transition: 400ms;
+}
+#active{
+  background-color: blue;
 }
 .overal{
   position: relative;

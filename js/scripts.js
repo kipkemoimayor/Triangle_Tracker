@@ -1,7 +1,7 @@
 function triangles(){
-  var length_x = parseInt(document.getElementById("one").value);
-  var length_y = parseInt(document.getElementById("two").value);
-  var length_z = parseInt(document.getElementById("three").value);
+  var length_x = parseFloat(document.getElementById("one").value);
+  var length_y = parseFloat(document.getElementById("two").value);
+  var length_z = parseFloat(document.getElementById("three").value);
 
   var emptArr=[];
   emptArr.push(length_x,length_y,length_z)
