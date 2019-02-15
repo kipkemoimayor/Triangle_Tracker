@@ -12,12 +12,14 @@
 ## Known Bugs
 NO know bugs as at the moment
 ## Behavior Driven Development
-| Behavior                  | Input example    | Output example   |
-| Our program should handle | When it receives | It should return |
-| ------------------------- | ---------------- | -----------------|
-| accepts inputs            |  9,5,6           |  true            |
-|                           |                  |                  |
-|                           |                  |                  |
+/***
+| __Behavior__              | __Input example__ | __Output example__ |
+| Our program should handle | When it receives  | It should return   |
+| ------------------------- | ----------------- | ------------------ |
+| accepts inputs            |  9,5,6            |  true              |
+|                           |                   |                    |
+|                           |                   |                    |
+*** /
 ## Technologies Used
 ## main languages used are
 * JavaSCript
