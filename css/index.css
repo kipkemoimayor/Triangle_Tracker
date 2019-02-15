@@ -5,11 +5,16 @@
 }
 h1{
   text-align: center;
+  font-size: 40px;
 }
-.body{
-  margin: 5px;
-  padding: 10px;
+#h1{
+
+  /*background-image: url(../images/preview.gif);
+  background-repeat: no-repeat;*/
+
+
 }
+
 .body form{
   padding: 10px;
 }
@@ -26,8 +31,12 @@ h1{
   font-size: 20px;
 }
 .body{
-  margin: auto;
-  width: 70%;
+  background-color: white;
+  border: 1px solid white;
+  position: relative;
+  top:40px;
+
+
 }
 nav{
   width: 100%;
@@ -52,5 +61,15 @@ nav a:hover{
 }
 .overal{
   position: relative;
-  top: 60px;;
+  top: 44px;
+}
+/*.tra img{
+  height: auto;
+  width: 100%;*/
+
+
+
+}
+.tra{
+  clear:left;
 }
