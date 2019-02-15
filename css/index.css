@@ -3,3 +3,22 @@
   padding: 0;
   border: 0;
 }
+.body{
+  margin: 5px;
+  padding: 10px;
+}
+.body form{
+  padding: 10px;
+}
+.body form input{
+  padding: 10px;
+  margin: 3px;
+  border: 1px solid blue;
+  width: auto;
+}
+.body form p{
+  text-align: justify;
+  font-family: 'Roboto',cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
