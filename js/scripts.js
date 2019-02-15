@@ -40,6 +40,6 @@ function triangles(){
 		output+=emptArr[i];
 
     }
-	alert("Perimeter is "+output)
+	document.getElementById('Perimeter').innerHTML="Perimeter is "+output
 
 }

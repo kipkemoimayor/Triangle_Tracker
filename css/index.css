@@ -8,6 +8,8 @@ body{
   background-image: url(../images/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-attachment: fixed;
 }
 /*#h1{
 /*  height: auto;
@@ -18,23 +20,34 @@ body{
   background-color:#535353;*/
 }
 .body{
-  display: inline-block;
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  overflow: scroll;
+  white-space: nowrap;
+
 }
 .body form{
   padding: 10px;
   text-align: center;
+  display: inline-block;
+  width: 20%;
+  height: auto;
+
 }
 .body form input{
   padding: 10px;
   margin: 3px;
   border: 1px solid blue;
-  width: auto;
+  height: auto;
+  background-color: rgba(255,255,255,0.8);
 }
-.body form p{
+.body  p{
   text-align: justify;
-  font-family: 'Roboto',cursive;
+  padding: 3px;
+  margin: 3px;
   font-weight: bold;
-  font-size: 20px;
 }
 nav{
   width: 100%;
@@ -44,6 +57,8 @@ nav{
   padding: 14px;
   z-index: 99;
   text-align: right;
+  overflow: auto;
+  white-space: nowrap;
 }
 nav a{
   color: white;
@@ -64,10 +79,23 @@ nav a:hover{
 .tra{
   width: 80%;
   margin: auto;
-  border: 2px solid white;
-  height: 25em;
+  height: auto;
   background-color: rgba(0,0,0,0.8);
   color: white;
-
-
+  box-shadow:5px 5px 5px black, 0 3px 5px black;
+}
+#txtresult{
+  color: #801;
+  padding: 10px;
+  background-color: #584;
+}
+#Perimeter{
+  color: #801;
+  padding: 10px;
+  background-color: #584;
+}
+#numbers{
+  color: #801;
+  padding: 10px;
+  background-color: #584;
 }

@@ -13,17 +13,25 @@
       <a href="#">Triangle tracker</a>
     </nav>
     <div class="overal">
-      
+
       <div class="tra">
+        <h2>Triangle Tracker</h2>
+        <p><strong>Triangle tracker</strong> Identifies the type of Triangle produced by your values</p>
+        <p>Enter your value below to know what type of triangle you form</p>
+        <p>Hint:There are Three types of Triangles, This are isosceles, Equilateral and Scalene Triangles</p>
         <div class="body">
           <form class="action" action="index.html" method="post">
-            <p>Enter the 1 <sup>st.</sup> side:<input required id="one" type="number" name="" placeholder="1st side"></p>
-            <p>Enter the 2 <sup>nd</sup> side:<input required id="two" type="number" name="" placeholder="2nd side" ></p>
-            <p>Enter the 3 <sup>rd</sup> side:<input required id="three" type="number" name="" placeholder="3rd side" r></p>
-            <p>Click to see the outcome: <input type="button" name="" value="Press OK"
-              onclick=triangles() >
-              </p>
-                <p id="txtresult">Results</p>
+            <p>1 <sup>st</sup> side</p>
+            <input required id="one" type="number" name="" placeholder="Enter your 1st side">
+            <p>2 <sup>nd</sup> side</p>
+            <input required id="two" type="number" name="" placeholder="Enter your 2nd side">
+            <p>3 <sup>rd</sup>side</p>
+            <input required id="three" type="number" name="" placeholder="Enter your 3rd side">
+            <input type="button" name="" value="Press OK"
+              onclick=triangles()>
+            <p>Outcome:</p>  <p id="txtresult">""</p>
+            <p id="Perimeter">""</p>
+            <p id="numbers">""</p>
           </form>
         </div>
     </div>
