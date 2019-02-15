@@ -1,10 +1,10 @@
 # Triangle Tracker
-#### This application takes inputs from the user and determines the values makes a Triangle, 2019
+#### This application takes inputs from the user and determines the values that makes a Triangle, 2019
 #### By **Collins kipkemoi**
 ## Description
 Basically this program gives the user the interface to interact with where the user has to input three values to form a Triangle
 The program takes the inputs and determines what kind of a Triangle was form from the values entered
-Then the program returns the output as either The types of Triangle 
+Then the program returns the output as either The types of Triangle
 ## Setup/Installation Requirements
 * A web browser
 * The web browser should support HTML5
