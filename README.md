@@ -11,6 +11,13 @@
 * a PC of 500mb Ram and 20gb HDD connected to the internet
 ## Known Bugs
 NO know bugs as at the moment
+##Behavior Driven Development
+|Behavior                 |Input example   |Output example  |
+|Our program should handle|When it receives|It should return|
+|-------------------------|----------------|----------------|
+|                         |                |                |
+|                         |                |                |
+|                         |                |                |
 ## Technologies Used
 ## main languages used are
 * JavaSCript
