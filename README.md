@@ -15,14 +15,10 @@ NO know bugs as at the moment
 
 | __Behavior__              | __Input example__ | __Output example__ |
 | Our program should handle | When it receives  | It should return   |
-| ------------------------- | ----------------- | ------------------ |
+|---------------------------|-------------------|--------------------|
 | accepts inputs            |  9,5,6            |  true              |
 |                           |                   |                    |
 |                           |                   |                    |
-| __Animals__ | __Sports__ | __Fruits__ |
-|-------------|------------|------------|
-| Cat         | Soccer     | Apple      |
-| Dog         | Basketball | Orange     |
 
 ## Technologies Used
 ## main languages used are
