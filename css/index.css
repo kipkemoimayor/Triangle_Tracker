@@ -26,6 +26,7 @@ body{
   height: auto;
   overflow: scroll;
   white-space: nowrap;
+  word-wrap: break-word;
 
 }
 .body form{
@@ -42,6 +43,8 @@ body{
   border: 1px solid blue;
   height: auto;
   background-color: rgba(255,255,255,0.8);
+  max-width: 100%;
+
 }
 .body  p{
   text-align: justify;
@@ -88,14 +91,29 @@ nav a:hover{
   color: #801;
   padding: 10px;
   background-color: #584;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
 }
 #Perimeter{
   color: #801;
   padding: 10px;
   background-color: #584;
+  display: inline-block;
+  border: 2px;
+  margin: 1px;
 }
 #numbers{
   color: #801;
   padding: 10px;
   background-color: #584;
+  display: inline-block;
+  border: 2px;
+  margin: 1px;
+}
+.para{
+  display: block;
+  border: 2px;
+  margin: 1px;
+
 }

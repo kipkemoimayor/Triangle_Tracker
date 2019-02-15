@@ -34,7 +34,7 @@ function triangles(){
     return false;
   }
 
-  alert("your values are "+emptArr)
+  document.getElementById('numbers').innerHTML="your values are "+emptArr
 	var output=0;
 	for(i=0;i<emptArr.length;i++){
 		output+=emptArr[i];
