@@ -9,12 +9,14 @@
     <h1>Welcome to Triangle Tracker </h1>
     <div class="body">
       <form class="action" action="index.html" method="post">
-        <p>Enter the 1 <sup>st.</sup> side:<input type="text" name="" value="" placeholder="1st side"></p>
-        <p>Enter the 2 <sup>nd</sup> side:<input type="text" name="" value="" placeholder="2nd side"></p>
-        <p>Enter the 3 <sup>rd</sup> side:<input type="text" name="" value="" placeholder="3rd side"></p>
-
+        <p>Enter the 1 <sup>st.</sup> side:<input id="Text1" type="text" name=""  placeholder="1st side"></p>
+        <p>Enter the 2 <sup>nd</sup> side:<input id="Text2" type="text" name=""  placeholder="2nd side"></p>
+        <p>Enter the 3 <sup>rd</sup> side:<input id="value3" type="text" name="" value="" placeholder="3rd side"></p>
+        <p>Click to see the outcome: <button type="button" name="button" value="Display Results"
+          onclick=add_number()>Press OK</button></p>
 
       </form>
+        <p id="txtresult">Results</p>
 
     </div>
 
