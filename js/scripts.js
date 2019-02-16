@@ -42,4 +42,56 @@ function triangles(){
     }
 	document.getElementById('Perimeter').innerHTML="Perimeter is "+output
 
+};
+// draws isoceles
+function draw(){
+  var canvas=document.getElementById("isoceles");
+  if(canvas.getContext){
+
+    var ctx=canvas.getContext('2d')
+    var s=canvas.width;
+    var h=canvas.height;
+
+    var path=new Path2D();
+    path.moveTo((s/2)+120,h/2);
+    path.lineTo((s/2),(h/2)-70);
+    path.lineTo((s/2),h/2);
+    ctx.fill(path);
+    ctx.fillStyle="rgba(250,255,255,0.9)";
+  }
 }
+draw();
+//Draws equileteral
+function dra(){
+  var canvas=document.getElementById("equileteral");
+  if(canvas.getContext){
+    var ctx=canvas.getContext('2d')
+    var s=canvas.width;
+    var h=canvas.height;
+    var path=new Path2D();
+    path.moveTo((s/2)+100,h/2);
+    path.lineTo((s/2),(h/2)-70);
+    path.lineTo((s/2)-90,h/2);
+    ctx.fill(path);
+    ctx.fillStyle="rgba(250,255,255,0.9)"
+  }
+}
+dra();
+
+draw();
+//Draws Scalene
+function dr(){
+  var canvas=document.getElementById("scalene");
+  if(canvas.getContext){
+    var ctx=canvas.getContext('2d')
+    var s=canvas.width;
+    var h=canvas.height;
+    var path=new Path2D();
+    path.moveTo((s/2)+80,h/2);
+    path.lineTo((s/2),(h/2)-70);
+    path.lineTo((s/2)-120,h/2);
+    ctx.fill(path);
+    ctx.fillStyle="rgba(250,255,255,0.9)";
+  }
+}
+dr();
