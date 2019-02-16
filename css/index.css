@@ -126,7 +126,7 @@ nav a:hover{
 }
 .display{
   width: 80%;
-  height: 25em;
+  height: auto;
   margin: auto;
   margin-top:10px;
   background-color: rgba(0,0,0,0.8);
