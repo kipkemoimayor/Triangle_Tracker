@@ -25,6 +25,7 @@ NO know bugs as at the moment
 | Test if all inputs are not equal | 4,3,5 | Scalene Triangle |
 | Create an array to store inputs | 4,5,6 | ["4","5","6"] |
 | Create a for loop to calculate Perimeter of the triangle | 4,5,5 | 14 |
+| Draws Triangle on button clicked | 4,5,10 | Triangle shape |
 ## Technologies Used
 ## main languages used are
 * JavaSCript
