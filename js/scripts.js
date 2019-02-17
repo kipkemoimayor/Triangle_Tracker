@@ -110,16 +110,18 @@ function triangles(){
   else{
     alert("Its not a Triangle maybe its a "+randomWords[accesArr]);
     document.getElementById("txtresult").innerHTML= 'Its not in anyway a Triangle'+' Your values are '+emptArr;
+    document.getElementById("main2").innerHTML= "Its not a Triangle maybe its a "+randomWords[accesArr];//throws random words in stored in the array 
+
     return false;
   }
 
-  document.getElementById('numbers').innerHTML="your values are "+emptArr
+  document.getElementById('numbers').innerHTML="your values are "+emptArr;
 	var output=0;
 	for(i=0;i<emptArr.length;i++){
 		output+=emptArr[i];
 
     }
-	document.getElementById('Perimeter').innerHTML="Perimeter is "+output
+	document.getElementById('Perimeter').innerHTML="Perimeter is "+output;
 
 };
 // draws isoceles
