@@ -12,7 +12,7 @@ function triangles(){
 
     if((length_x==length_y  && length_x!=length_z)||(length_x==length_z &&length_x!=length_y) ){
       document.getElementById("txtresult").innerHTML= 'It is an isoceles Triangle';
-      document.getElementById("main2").innerHTML= 'isoceles Triangle';
+      document.getElementById("main2").innerHTML= 'isoceles Triangle'+'<br>two sides are equal';
       //If the condition is true it draws the isoceles Triangle and Displays it on canvas
       var canvas=document.getElementById("main");
       if(canvas.getContext){
@@ -26,12 +26,13 @@ function triangles(){
         path.lineTo((s/2),(h/2)-70);
         path.lineTo((s/2),h/2);
         ctx.fill(path);
+        ctx.fillStyle="rgba(250,255,255,0.9)";
 
       }
     }
     else if((length_y==length_x && length_x!=length_z)||(length_y==length_z && length_x!=length_y)){
       document.getElementById("txtresult").innerHTML= 'It is an isoceles Triangle';
-      document.getElementById("main2").innerHTML= 'isoceles Triangle';
+      document.getElementById("main2").innerHTML= 'isoceles Triangle'+'<br>two sides are equal';
       //If the condition is true it draws the isoceles Triangle and Displays it on canvas
       var canvas=document.getElementById("main");
       if(canvas.getContext){
@@ -45,11 +46,12 @@ function triangles(){
         path.lineTo((s/2),(h/2)-70);
         path.lineTo((s/2),h/2);
         ctx.fill(path);
+        ctx.fillStyle="rgba(250,255,255,0.9)";
       }
     }
     else if((length_z==length_y && length_z!=length_x)||(length_z==length_x && length_z!=length_y)){
       document.getElementById("txtresult").innerHTML= 'It is an isoceles Triangle';
-      document.getElementById("main2").innerHTML= 'isoceles Triangle';
+      document.getElementById("main2").innerHTML= 'isoceles Triangle'+'<br>two sides are equal';
       //If the condition is true it draws the isoceles Triangle and Displays it on canvas
       var canvas=document.getElementById("main");
       if(canvas.getContext){
@@ -63,12 +65,13 @@ function triangles(){
         path.lineTo((s/2),(h/2)-70);
         path.lineTo((s/2),h/2);
         ctx.fill(path);
+        ctx.fillStyle="rgba(250,255,255,0.9)";
       }
 
     }
     else if(length_x==length_y && length_x==length_z && length_y==length_z){
       document.getElementById("txtresult").innerHTML= 'It is an Equilateral Triangle';
-      document.getElementById("main2").innerHTML= 'Equilateral Triangle';
+      document.getElementById("main2").innerHTML= 'Equilateral Triangle'+'<br>all sides are equal';
       //If the condition is true it draws the Equilateral Triangle and Displays it on canvas
       var canvas=document.getElementById("main");
       if(canvas.getContext){
@@ -80,13 +83,14 @@ function triangles(){
         path.lineTo((s/2),(h/2)-70);
         path.lineTo((s/2)-90,h/2);
         ctx.fill(path);
+        ctx.fillStyle="rgba(250,255,255,0.9)";
 
       }
 
     }
     else if(length_x!=length_y && length_x!=length_z && length_z!=length_y ){
       document.getElementById("txtresult").innerHTML= 'It is an Scalene Triangle';
-      document.getElementById("main2").innerHTML= 'Scalene Triangle';
+      document.getElementById("main2").innerHTML= 'Scalene Triangle'+'<br>no side is equal';
       //If the condition is true it draws the Scalene Triangle and Displays it on canvas
       var canvas=document.getElementById("main");
       if(canvas.getContext){
@@ -98,6 +102,7 @@ function triangles(){
         path.lineTo((s/2),(h/2)-70);
         path.lineTo((s/2)-120,h/2);
         ctx.fill(path);
+        ctx.fillStyle="rgba(250,255,255,0.9)";
 
       }
     }
