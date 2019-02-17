@@ -13,6 +13,7 @@ function triangles(){
     if((length_x==length_y  && length_x!=length_z)||(length_x==length_z &&length_x!=length_y) ){
       document.getElementById("txtresult").innerHTML= 'It is an isoceles Triangle';
       document.getElementById("main2").innerHTML= 'isoceles Triangle';
+      //If the condition is true it draws the isoceles Triangle and Displays it on canvas
       var canvas=document.getElementById("main");
       if(canvas.getContext){
 
@@ -25,12 +26,13 @@ function triangles(){
         path.lineTo((s/2),(h/2)-70);
         path.lineTo((s/2),h/2);
         ctx.fill(path);
-    
+
       }
     }
     else if((length_y==length_x && length_x!=length_z)||(length_y==length_z && length_x!=length_y)){
       document.getElementById("txtresult").innerHTML= 'It is an isoceles Triangle';
       document.getElementById("main2").innerHTML= 'isoceles Triangle';
+      //If the condition is true it draws the isoceles Triangle and Displays it on canvas
       var canvas=document.getElementById("main");
       if(canvas.getContext){
 
@@ -48,6 +50,7 @@ function triangles(){
     else if((length_z==length_y && length_z!=length_x)||(length_z==length_x && length_z!=length_y)){
       document.getElementById("txtresult").innerHTML= 'It is an isoceles Triangle';
       document.getElementById("main2").innerHTML= 'isoceles Triangle';
+      //If the condition is true it draws the isoceles Triangle and Displays it on canvas
       var canvas=document.getElementById("main");
       if(canvas.getContext){
 
@@ -66,6 +69,7 @@ function triangles(){
     else if(length_x==length_y && length_x==length_z && length_y==length_z){
       document.getElementById("txtresult").innerHTML= 'It is an Equilateral Triangle';
       document.getElementById("main2").innerHTML= 'Equilateral Triangle';
+      //If the condition is true it draws the Equilateral Triangle and Displays it on canvas
       var canvas=document.getElementById("main");
       if(canvas.getContext){
         var ctx=canvas.getContext('2d')
@@ -83,6 +87,7 @@ function triangles(){
     else if(length_x!=length_y && length_x!=length_z && length_z!=length_y ){
       document.getElementById("txtresult").innerHTML= 'It is an Scalene Triangle';
       document.getElementById("main2").innerHTML= 'Scalene Triangle';
+      //If the condition is true it draws the Scalene Triangle and Displays it on canvas
       var canvas=document.getElementById("main");
       if(canvas.getContext){
         var ctx=canvas.getContext('2d')
