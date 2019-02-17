@@ -118,7 +118,7 @@ function triangles(){
 
 };
 // draws isoceles
-function draw(){
+function drawIsoceles(){
   var canvas=document.getElementById("isoceles");
   if(canvas.getContext){
 
@@ -134,9 +134,9 @@ function draw(){
     ctx.fillStyle="rgba(250,255,255,0.9)";
   }
 }
-draw();
+drawIsoceles();
 //Draws equileteral
-function dra(){
+function drawsEquileteral(){
   var canvas=document.getElementById("equileteral");
   if(canvas.getContext){
     var ctx=canvas.getContext('2d')
@@ -150,9 +150,9 @@ function dra(){
     ctx.fillStyle="rgba(250,255,255,0.9)"
   }
 }
-dra();
+drawsEquileteral();
 //Draws Scalene
-function dr(){
+function drawScalene(){
   var canvas=document.getElementById("scalene");
   if(canvas.getContext){
     var ctx=canvas.getContext('2d')
@@ -166,4 +166,12 @@ function dr(){
     ctx.fillStyle="rgb(250,255,255,0.9)";
   }
 }
-dr();
+drawScalene();
+//clearng the canvas
+function clearCanvas(){
+  var canvas=document.getElementById("main");
+  if(canvas.getContext){
+  var ctx=canvas.getContext('2d');
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+}
+}
